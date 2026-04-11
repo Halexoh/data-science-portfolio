@@ -38,6 +38,7 @@ These were integrated into a single analytical dataset.
 
 ## Project Structure
 
+'''
 src/
 │
 ├── data/
@@ -51,6 +52,7 @@ src/
 │
 ├── models/
 │ └── train_model.py # Model training
+'''
 
 ---
 
