@@ -103,7 +103,7 @@ data_raw/
 ```
 4. Run the training pipeline:
 ```bash
-python src/models/train_model.py
+python -m src.models.train_model
 ```
 This script performs:
 
