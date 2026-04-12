@@ -73,4 +73,12 @@ Result: Top 48% in competition
 
 ---
 
+## ▶️ How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Halexoh/data-science-portfolio.git
+cd data-science-portfolio/projects/ecommerce-analytics
+```
+
 If you find this portfolio interesting, feel free to connect!
