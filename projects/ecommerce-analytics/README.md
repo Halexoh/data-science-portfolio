@@ -8,6 +8,12 @@ It was developed following an end-to-end data science workflow, from raw data in
 
 ---
 
+## Objective
+
+Identify the main operational and product-related factors that impact customer satisfaction in an e-commerce environment.
+
+---
+
 ## Business Problem
 
 E-commerce companies need to understand:
@@ -17,6 +23,12 @@ E-commerce companies need to understand:
 - How operational and product variables impact performance
 
 This project aims to transform raw transactional data into actionable insights.
+
+---
+## 📊 Model Performance
+
+Model performance was evaluated using MAE and R², showing the model captures a meaningful portion of variability in customer satisfaction.
+
 
 ---
 
@@ -85,7 +97,7 @@ src/
 
 ---
 
-## 📈 Business Impact (Simulated)
+## Business Impact (Simulated)
 
 Based on the analysis:
 
@@ -96,7 +108,56 @@ Based on the analysis:
 These insights can support decision-making in operations, logistics, and customer experience.
 
 ---
+## How to Run
 
+1. Clone the repository:
+```bash
+git clone https://github.com/Halexoh/data-science-portfolio.git
+cd data-science-portfolio/projects/ecommerce-analytics
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Download the dataset:
+Dataset: Brazilian E-commerce Public Dataset (Olist)
+Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+4. Place the CSV files inside:
+```bash
+data_raw/
+```
+Expected structure:
+
+```bash
+projects/ecommerce-analytics/
+│
+├── data_raw/
+│   ├── olist_orders_dataset.csv
+│   ├── olist_order_items_dataset.csv
+│   ├── olist_customers_dataset.csv
+│   ├── olist_products_dataset.csv
+│   ├── olist_sellers_dataset.csv
+│   ├── olist_order_payments_dataset.csv
+│   ├── olist_order_reviews_dataset.csv
+│   └── olist_geolocation_dataset.csv
+```
+
+5. Run the pipeline:
+```bash
+python src/models/train_model.py
+```
+### What the Pipeline Does
+- Loads raw data from multiple tables
+- Cleans and preprocesses datasets
+- Merges into a unified analytical dataset
+- Builds features related to delivery, products and customers
+- Trains a machine learning model (Random Forest)
+- Evaluates performance using MAE and R²
+
+---
 
 ## Tools & Technologies
 
@@ -116,4 +177,4 @@ These insights can support decision-making in operations, logistics, and custome
 
 ## Key Takeaway
 
-This project demonstrates the ability to work end-to-end: from raw data to business insights and predictive modeling, using a structured and scalable approach.
+This project demonstrates the ability to translate raw data into actionable business insights and predictive models using a structured, end-to-end data science workflow.
