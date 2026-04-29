@@ -1,4 +1,4 @@
-# Data Science Portfolio – Alexander Osorio
+# Data Science Portfolio — Alexander Osorio
 
 Portfolio of end-to-end data science and machine learning projects focused on solving real-world business problems using data-driven approaches.
 
@@ -6,112 +6,72 @@ Portfolio of end-to-end data science and machine learning projects focused on so
 
 ## About Me
 
-Data Analytics Specialist with experience in industrial processes, combining data science, machine learning, and business understanding to drive impactful decisions.
-
-- Data Analysis & Visualization
-- Machine Learning (Regression, Classification)
-- Business Problem Solving
-- Python (pandas, scikit-learn)
-- SQL & Data Modeling
+Data Scientist with 8+ years in industrial environments (manufacturing, chemical distribution, applied research).  
+Background: Biological Engineering + Data Analytics Specialization.  
+Location: Medellín, Colombia · Available for remote LATAM / Global roles.
 
 ---
 
 ## Projects
 
-### E-commerce Analytics Project
-**Goal:** Identify key drivers of customer satisfaction and delivery delays in an e-commerce business.
-**Key Insight:** Delivery delays are strongly correlated with lower review scores, highlighting logistics as a critical factor for customer satisfaction.
+### 🛒 Brazilian E-commerce Analytics
+**Repo:** [github.com/Halexoh/brazilian-ecommerce](https://github.com/Halexoh/brazilian-ecommerce)
 
+**Goal:** Identify key drivers of customer satisfaction and delivery delays in an e-commerce business (94K+ orders).
 
-- Data cleaning and transformation (multiple sources)
-- Feature engineering
-- Exploratory Data Analysis (EDA)
-- Business insights and recommendations
+**Key Finding:** Delivery delays are the #1 driver of low review scores — orders with 1★ show significantly higher delay days vs 5★.
 
-Tools: Python, pandas, seaborn, matplotlib
+- Data integration from 9 sources (orders, items, customers, sellers, products, payments, reviews, geo, categories)
+- Feature engineering: delivery delay, processing time, purchase hour/month
+- EDA with 8 professional visualizations (Seaborn/Matplotlib)
+- Machine Learning: Random Forest + 5-fold CV · Top 48% Kaggle competition
 
----
-
-### Kaggle Machine Learning Project
-**Goal:** Identify key drivers of customer satisfaction and delivery delays in an e-commerce business.
-
-- Model training (Random Forest, CatBoost)
-- Cross-validation
-- Feature selection
-- Performance optimization
-
-Result: Top 48% in competition
+**Stack:** Python · Pandas · Scikit-learn · Seaborn · Matplotlib
 
 ---
 
-### Time Series / Forecasting (Coming Soon)
-**Goal:** Predict demand / trends using historical data.
+### 🎨 Paint R&D Analysis *(coming soon)*
+**Goal:** Technical variable analysis with cost impact in industrial coatings.  
+**Stack:** Python · SQL · Streamlit · Power BI
+
+---
+
+### 📄 Invoice Reader *(coming soon)*
+**Goal:** Automated extraction and processing of invoice data using OCR.  
+**Stack:** Python · OCR · NLP
+
+---
+
+### 📈 Time Series / Demand Forecasting *(coming soon)*
+**Goal:** Predict demand trends using historical data.  
+**Stack:** Python · statsmodels · Prophet
 
 ---
 
 ## Tech Stack
 
-- Python (pandas, numpy, scikit-learn)
-- SQL
-- Power BI / Visualization tools
-- Git & GitHub
-- Jupyter Notebooks
+| Category | Tools |
+|---|---|
+| Languages | Python · R · SQL |
+| Libraries | Pandas · NumPy · Scikit-learn · Seaborn · Matplotlib |
+| BI / Viz | Power BI · Plotly |
+| ML | Regression · Classification · Time Series · Feature Engineering |
+| Cloud / AI | AWS AI Practitioner · Amazon Bedrock · PartyRock |
+| Workflow | Git · GitHub · Jupyter Notebooks |
 
 ---
 
-## What I Bring
+## Real Impact (from experience)
 
-- Ability to connect data with business impact
-- Experience working with real industrial data
-- End-to-end project development
-- Strong analytical and problem-solving mindset
+- 12% reduction in production costs via multivariate analysis
+- Managed key client (~50% of consumption) with KPI dashboards in Power BI
+- 80% portfolio homologation based on technical analysis
+- LATAM regional data coordination integrating multiple markets
 
 ---
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/alexanderosorioanalytics/
-- GitHub: https://github.com/Halexoh
-
----
-
-## Dataset
-
-Dataset used: Brazilian E-commerce Public Dataset (Olist)
-
-Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-
-Note: Raw data is not included due to size limitations.
-
----
-
-## How to Run
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Halexoh/data-science-portfolio.git
-cd data-science-portfolio/projects/ecommerce-analytics
-```
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Download the dataset and place the CSV files inside:
-```bash
-data_raw/
-```
-4. Run the training pipeline:
-```bash
-python -m src.models.train_model
-```
-This script performs:
-
-- Data loading from multiple sources
-- Data cleaning and preprocessing
-- Dataset integration
-- Feature engineering
-- Model training (Random Forest)
-- Model evaluation (MAE, R²)
-
-If you find this portfolio interesting, feel free to connect!
+- LinkedIn: [alexanderosorioanalytics](https://www.linkedin.com/in/alexanderosorioanalytics/)
+- GitHub: [github.com/Halexoh](https://github.com/Halexoh)
+- Email: halexoh@gmail.com
